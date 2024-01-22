@@ -64,7 +64,7 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Difference
 **Decription**: See difference between current and specified branch </br>
-**Code**: git diff <ins>*name of branch*</ins>
+**Code**: git diff <ins>*name of branch*</ins>/*nothing to see diff of last commit*
 
 ## Pull Request
 **Decription**: Code from pulled in from another branch </br>
@@ -72,4 +72,12 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Pull
 **Decription**: Get updated code from branch from remote repository </br>
+**Code**: git checkout <ins>*name of branch*</ins> </br>
+
+## Delete Branch
+**Decription**: self explanatory </br>
+**Code**: git branch -d <ins>*name of branch*</ins> </br>
+
+## Merge Conflicts
+**Decription**: When same branch is being changed at same time  </br>
 **Code**: git checkout <ins>*name of branch*</ins> </br>
