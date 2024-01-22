@@ -102,3 +102,6 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Notes
 When working on a branch every once in a while merge master to not get too far behind to not make the merge hard
+
+## Forking
+**Description**: Copy repository to your account
