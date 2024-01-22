@@ -47,6 +47,17 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Code**: git commit -m "<ins>*Commit message*</ins>" -m "<ins>*Commit Description*</ins>"
 **Notes**: Commit message is mandatory, Commit descripton is optional, smth to do with what and why you committed
 
+## Undo Commit
+**Decription**: Switch between branches </br>
+**Code**: git reset HEAD~1 </br>
+**Notes**: 
+1. HEAD: Last commit
+2. ~1: Go back 1 commit
+
+## Log
+**Decription**: List of commits in reverse chronological order </br>
+**Code**: git log </br>
+
 ## Basic steps for uploading repository
 1. git add .
 2. git commit
@@ -85,13 +96,6 @@ Last step we just need to do is that let the local git cmd line know about the s
 ## Unstage
 **Decription**: Make git not take into consuderation specified file</br>
 **Code**: git reset <ins>*name of file*</ins> </br>
-
-## Undo Commit
-**Decription**: Switch between branches </br>
-**Code**: git reset HEAD~1 </br>
-**Notes**: 
-1. HEAD: Last commit
-2. ~1: Go back 1 commit
 
 ## Notes
 When working on a branch every once in a while merge master to not get too far behind to not make the merge hard
