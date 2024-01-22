@@ -49,14 +49,14 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Undo Commit
 **Decription**: Switch between branches </br>
-**Code**: git reset HEAD~1 </br> / git reset <ins> *hash of commit*</ins>
+**Code**: git reset HEAD~1 </br> / git reset <ins> *hash of commit*</ins> / git reset --hard <ins>*hash of commit*</ins>
 
 
 **Notes**: 
 1. HEAD: Last commit
 2. ~1: Go back 1 commit
 3. To hash of commit: Resets any change after that commit
-
+4. Hard: Doesnt only unstage, it completely removes anything after that commit
 ## Log
 **Decription**: List of commits in reverse chronological order </br>
 **Code**: git log </br>
