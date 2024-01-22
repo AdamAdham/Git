@@ -52,3 +52,8 @@ Last step we just need to do is that let the local git cmd line know about the s
 2. git commit
 3. git push
 4. pull request (if a review or permission is needed)
+
+## Branch
+**Decription**: See branches of repository
+**Code**: git branch
+**Notes**: The one with astrisk is one currently on
