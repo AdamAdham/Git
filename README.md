@@ -54,6 +54,22 @@ Last step we just need to do is that let the local git cmd line know about the s
 4. pull request (if a review or permission is needed)
 
 ## Branch
-**Decription**: See branches of repository
-**Code**: git branch
+**Decription**: See branches of repository </br>
+**Code**: git branch </br>
 **Notes**: The one with astrisk is one currently on
+
+## Checkout
+**Decription**: Switch between branches </br>
+**Code**: git checkout <ins>*name of branch*</ins> </br>
+
+## Difference
+**Decription**: See difference between current and specified branch </br>
+**Code**: git diff <ins>*name of branch*</ins>
+
+## Pull Request
+**Decription**: Code from pulled in from another branch </br>
+**Code**: Did on github </br>
+
+## Pull
+**Decription**: Get updated code from branch from remote repository </br>
+**Code**: git checkout <ins>*name of branch*</ins> </br>
