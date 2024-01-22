@@ -82,5 +82,16 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Decription**: When same branch is being changed at same time  </br>
 **Code**: do on vs code/github
 
+## Unstage
+**Decription**: Make git not take into consuderation specified file</br>
+**Code**: git reset <ins>*name of file*</ins> </br>
+
+## Undo Commit
+**Decription**: Switch between branches </br>
+**Code**: git reset HEAD~1 </br>
+**Notes**: 
+1. HEAD: Last commit
+2. ~1: Go back 1 commit
+
 ## Notes
 When working on a branch every once in a while merge master to not get too far behind to not make the merge hard
