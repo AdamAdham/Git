@@ -47,4 +47,8 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Code**: git commit -m "<ins>*Commit message*</ins>" -m "<ins>*Commit Description*</ins>"
 **Notes**: Commit message is mandatory, Commit descripton is optional, smth to do with what and why you committed
 
-
+## Basic steps for uploading repository
+1. git add .
+2. git commit
+3. git push
+4. pull request (if a review or permission is needed)
