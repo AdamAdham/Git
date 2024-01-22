@@ -28,5 +28,6 @@
 **Code**: ssh-keygen -t rsa -b 4096 -C "<ins>*Github email address*</ins>"
 **Notes**: Code generates SSH key, -t: type of encryption, -b: strength of encryption </br>
 There is a file for key and key.pub, key.pub is going to be uploaded to github interface (pub stands for public) </br>
-Testkey is private (dont show to anyone) this key shows github you are the person that generated that public key
+Testkey is private (dont show to anyone) this key shows github you are the person that generated that public key </br>
+Last step we just need to do is that let the local git cmd line know about the ssh key (search on internet)
 
