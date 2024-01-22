@@ -20,8 +20,8 @@
 
 ## Push
 **Decription**: Uploading to remote repository where my project is hosted </br>
-**Code**: git push -m "<ins>*Commit message*</ins>" -m "<ins>*Commit Description*</ins>"
-**Notes**: Commit message is mandatory, Commit descripton is optional, smth to do with what and why you committed
+**Code**: git push origin master
+**Notes**: Origin is the location of the git repository, master is the branch
 
 ## SSH Keys
 **Decription**:Used to prove you are the owner of github account/ Connect local machine to github account </br>
