@@ -22,3 +22,11 @@
 **Decription**: Uploading to remote repository where my project is hosted </br>
 **Code**: git push -m "<ins>*Commit message*</ins>" -m "<ins>*Commit Description*</ins>"
 **Notes**: Commit message is mandatory, Commit descripton is optional, smth to do with what and why you committed
+
+## SSH Keys
+**Decription**:Used to prove you are the owner of github account/ Connect local machine to github account </br>
+**Code**: ssh-keygen -t rsa -b 4096 -C "<ins>*Github email address*</ins>"
+**Notes**: Code generates SSH key, -t: type of encryption, -b: strength of encryption </br>
+There is a file for key and key.pub, key.pub is going to be uploaded to github interface (pub stands for public) </br>
+Testkey is private (dont show to anyone) this key shows github you are the person that generated that public key
+
