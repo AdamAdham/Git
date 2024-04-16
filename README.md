@@ -22,7 +22,7 @@
 **Decription**: Uploading to remote repository where my project is hosted </br>
 **Code**: git push origin master </br>
 **Notes**: Origin is the location of the git repository, master is the branch </br>
-Shortcut: set smth called upstream so we use git push only by </br>
+**Shortcut**: set smth called upstream so we use git push only by </br>
 git push -u origin master 
 
 ## SSH Keys
