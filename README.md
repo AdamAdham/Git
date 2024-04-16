@@ -100,7 +100,7 @@ Last step we just need to do is that let the local git cmd line know about the s
 When working on a branch every once in a while merge master to not get too far behind to not make the merge hard
 
 ## Forking
-**Description**: Copy repository to your account
+**Description**: Copy repository to your account (cloud)
 
 ## Create Branch
 **Decription**: Switch working space from current branch to another new one</br>
