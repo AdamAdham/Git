@@ -63,9 +63,9 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Basic steps for uploading repository
 1. git add .
-2. git commit
+2. git commit -m "<ins>*Commit message*</ins>"
 3. git push origin master
-4. pull request (if a review or permission is needed)
+4. pull (not a pull request) (if a review or permission is needed)
 
 ## Branch
 **Decription**: See branches of repository </br>
@@ -78,15 +78,11 @@ Last step we just need to do is that let the local git cmd line know about the s
 
 ## Difference
 **Decription**: See difference between current and specified branch </br>
-**Code**: git diff <ins>*name of branch*</ins>/*nothing to see diff of last commit*
+**Code**: git diff <ins>*name of branch*</ins>/* <ins>nothing </ins>to see diff of last commit*
 
 ## Pull Request
 **Decription**: Code from pulled in from another branch </br>
 **Code**: Did on github </br>
-
-## Pull
-**Decription**: Get updated code from branch from remote repository </br>
-**Code**: git checkout <ins>*name of branch*</ins> </br>
 
 ## Delete Branch
 **Decription**: self explanatory </br>
@@ -105,3 +101,17 @@ When working on a branch every once in a while merge master to not get too far b
 
 ## Forking
 **Description**: Copy repository to your account
+
+## Create Branch
+**Decription**: Switch working space from current branch to another new one</br>
+**Code**: git checkout -b <ins>*name of branch*</ins> </br>
+
+## Pull (not pull request)
+**Decription**: Getting the code of a repository</br>
+**Code**: git pull <ins>*link of repo*</ins> </br>
+
+## Notes
+1. Every contributer will have its branch
+2. Merging happens to only 2 branches
+3. Merging has a base branch, where the changes will get committed
+4. Merging are pull requests
