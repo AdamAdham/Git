@@ -2,6 +2,7 @@
 
 ## Cloning
 **Decription**: Getting downloading the repository </br>
+**Code**: git clone -b <ins>*branch*</ins> <ins>*link of repository*</ins>
 **Code**: git clone <ins>*link of repository*</ins>
 
 ## Status
