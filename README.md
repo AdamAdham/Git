@@ -77,6 +77,12 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Decription**: Switch between branches </br>
 **Code**: git checkout <ins>*name of branch*</ins> </br>
 
+## Get branches from the remote
+git fetch
+
+## List all branches (local and remote)
+git branch -a
+
 ## Difference
 **Decription**: See difference between current and specified branch </br>
 **Code**: git diff <ins>*name of branch*</ins>/* <ins>nothing </ins>to see diff of last commit*
