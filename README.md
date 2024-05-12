@@ -101,6 +101,11 @@ git checkout -b <ins>*name of branch*</ins> </br>
 git branch -d <ins>*name of branch*</ins> </br>
 ```
 
+## Rename Branch
+```git
+git branch -m "name"
+```
+
 ## Difference
 **Decription**: See difference between current and specified branch </br>
 **Code**: git diff <ins>*name of branch*</ins>/* <ins>nothing </ins>to see diff of last commit*
