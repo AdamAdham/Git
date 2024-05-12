@@ -52,7 +52,6 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Decription**: Switch between branches </br>
 **Code**: git reset HEAD~1 </br> / git reset <ins> *hash of commit*</ins> / git reset --hard <ins>*hash of commit*</ins>
 
-
 **Notes**: 
 1. HEAD: Last commit
 2. ~1: Go back 1 commit
@@ -68,20 +67,38 @@ Last step we just need to do is that let the local git cmd line know about the s
 3. git push origin master
 4. pull (not a pull request) (if a review or permission is needed)
 
-## Branch
+## Branches
 **Decription**: See branches of repository </br>
-**Code**: git branch </br>
 **Notes**: The one with astrisk is one currently on
+```GIT
+git branch </br>
+```
 
-## Checkout
+### Checkout
 **Decription**: Switch between branches </br>
 **Code**: git checkout <ins>*name of branch*</ins> </br>
 
-## Get branches from the remote
+### Get branches from the remote
+```GIT
 git fetch
+```
 
-## List all branches (local and remote)
+### List all branches (local and remote)
+```GIT
 git branch -a
+```
+
+## Create Branch
+**Decription**: Switch working space from current branch to another new one</br>
+```GIT
+git checkout -b <ins>*name of branch*</ins> </br>
+```
+
+## Delete Branch
+**Decription**: self explanatory </br>
+```GIT
+git branch -d <ins>*name of branch*</ins> </br>
+```
 
 ## Difference
 **Decription**: See difference between current and specified branch </br>
@@ -90,10 +107,6 @@ git branch -a
 ## Pull Request
 **Decription**: Code from pulled in from another branch </br>
 **Code**: Did on github </br>
-
-## Delete Branch
-**Decription**: self explanatory </br>
-**Code**: git branch -d <ins>*name of branch*</ins> </br>
 
 ## Merge Conflicts
 **Decription**: When same branch is being changed at same time  </br>
@@ -109,9 +122,6 @@ When working on a branch every once in a while merge master to not get too far b
 ## Forking
 **Description**: Copy repository to your account (cloud)
 
-## Create Branch
-**Decription**: Switch working space from current branch to another new one</br>
-**Code**: git checkout -b <ins>*name of branch*</ins> </br>
 
 ## Pull (not pull request)
 **Decription**: Getting the code of a repository</br>
