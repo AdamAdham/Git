@@ -88,13 +88,13 @@ git fetch
 git branch -a
 ```
 
-## Create Branch
+### Create Branch
 **Decription**: Switch working space from current branch to another new one</br>
 ```GIT
 git checkout -b <ins>*name of branch*</ins> </br>
 ```
 
-## Delete Branch
+### Delete Branch
 **Decription**: self explanatory </br>
 ```GIT
 git branch -d <ins>*name of branch*</ins> </br>
