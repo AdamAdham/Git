@@ -49,6 +49,12 @@ Last step we just need to do is that let the local git cmd line know about the s
 **Code**: git commit -m "<ins>*Commit message*</ins>" -m "<ins>*Commit Description*</ins>" </br>
 **Notes**: Commit message is mandatory, Commit descripton is optional, smth to do with what and why you committed
 
+## See previous commits
+``` git
+git log
+```
+stop by pressing q
+
 ## Undo Commit
 **Decription**: Switch between branches </br>
 **Code**: git reset HEAD~1 </br> / git reset <ins> *hash of commit*</ins> / git reset --hard <ins>*hash of commit*</ins>
