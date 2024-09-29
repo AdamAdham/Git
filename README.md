@@ -144,3 +144,13 @@ When working on a branch every once in a while merge master to not get too far b
 2. Merging happens to only 2 branches
 3. Merging has a base branch, where the changes will get committed
 4. Merging are pull requests
+
+## Pull Requests
+1. Fetch remote branches
+2. git checkout main
+3. git pull origin main
+4. git checkout branchToBeMerged
+5. In source control do pull request (not the built in, which is ironically built in)
+6. click resolve confilcts
+7. when done click commit changes
+
