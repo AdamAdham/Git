@@ -78,7 +78,7 @@ stop by pressing q
 **Decription**: See branches of repository </br>
 **Notes**: The one with astrisk is one currently on
 ```GIT
-git branch </br>
+git branch
 ```
 
 ### Checkout
