@@ -98,13 +98,13 @@ git branch -a
 ### Create Branch
 **Decription**: Switch working space from current branch to another new one</br>
 ```GIT
-git checkout -b name_of_branch </br>
+git checkout -b name_of_branch
 ```
 
 ### Delete Branch
 **Decription**: self explanatory </br>
 ```GIT
-git branch -d name_of_branch </br>
+git branch -d name_of_branch
 ```
 
 ## Rename Branch
