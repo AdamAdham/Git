@@ -101,16 +101,30 @@ git branch -a
 git checkout -b name_of_branch
 ```
 
+### Push Created Branch Remote
+```git
+git push -u origin new_branch_name
+```
+
+
 ### Delete Branch
 **Decription**: self explanatory </br>
 ```GIT
 git branch -d name_of_branch
 ```
 
-## Rename Branch
+### Rename Branch
 ```git
 git branch -m "name"
 ```
+
+### Reset local main branch to match remote main branch:
+This command will make your local main branch identical to the origin/main branch, discarding any local commits that aren't in the remote branch. Be cautious when using --hard, as it will overwrite changes in your working directory that haven’t been committed.
+
+```git
+git reset --hard origin/main
+```
+
 
 ## Difference
 **Decription**: See difference between current and specified branch </br>
